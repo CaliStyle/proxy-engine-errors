@@ -1,4 +1,5 @@
-module.exports = class extends Error {
+'use strict'
+module.exports = class ModelError extends Error {
   constructor(code, message, errors) {
     super(message)
     this.code = code

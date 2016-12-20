@@ -1,7 +1,7 @@
 'use strict'
 // const _ = require('lodash')
 
-module.exports = class extends Error {
+module.exports = class ConflictError extends Error {
   constructor(error) {
     super(error)
 
